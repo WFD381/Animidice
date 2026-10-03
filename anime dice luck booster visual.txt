@@ -1,5 +1,5 @@
 if game:GetService("RobloxReplicatedStorage"):WaitForChild("GetServerType"):InvokeServer() == "VIPServer" then
-    game:GetService("Players").LocalPlayer:Kick("\nUsing this script in private server may result in a ban.")
+    game:GetService("Players").LocalPlayer:Kick("\nUsing this script in private server may result in a ban.\nPlease join a PUBLIC server.")
     return
 end
 
